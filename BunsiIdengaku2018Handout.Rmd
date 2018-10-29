@@ -5,7 +5,7 @@ date: "2018年11月1日"
 output: 
   html_document:
   
-    toc: true
+    toc: false
     number_sections: true
     toc_float:
       collapsed: false
@@ -59,7 +59,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
     + "https://www.google.co.jp/search?q=遺伝,諺"
     
-    ![遺伝諺](pics/kotowaza.png)
+    ![遺伝諺](pics/kotowaza.png){width=250px}
 
 
 ### いろいろな「遺伝」
@@ -70,7 +70,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * 「母細胞」と「娘細胞」
 * 「進化上の祖先種」と「進化して生じた新種」
 
-![親子いろいろ](pics/oyako.png)
+![親子いろいろ](pics/oyako.png){width=250px}
 
 
 
@@ -99,7 +99,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### 物理的実在としての遺伝子
 
     
-![受精](pics/fertilization.jpg)
+![受精](pics/fertilization.jpg){width=250px}
 
 * 親が子に伝えた「物理的実在」
     + 卵子と精子
@@ -110,7 +110,7 @@ knitr::opts_chunk$set(echo = TRUE)
     + たんぱく質をコードしないけれど「表現型に影響する」座位(非コーディング遺伝子)
     + ミトコンドリアとそのDNA
 
-![遺伝情報運搬体](pics/DNAChromosome.png)
+![遺伝情報運搬体](pics/DNAChromosome.png){width=250px}
 Wikibook「分子生物学」
 
 
@@ -127,12 +127,12 @@ Wikibook「分子生物学」
 * 卵子はミトコンドリアをたくさんもっている。母由来のミトコンドリアが子に伝わる
 * 精子はミトコンドリアを運動エネルギーのためにたくさん持っているが、受精卵には入らないので子に伝わらない
 
-![染色体](pics/chromosome.png)
-![ミトコンドリアゲノム](pics/mitgenome.png)
+![染色体](pics/chromosome.png){width=250px}
+![ミトコンドリアゲノム](pics/mitgenome.png){width=250px}
 
 
-![卵子](pics/ovum.jpg)
-![精子](pics/sperm.png)
+![卵子](pics/ovum.jpg){width=250px}
+![精子](pics/sperm.png){width=250px}
 
 ### 概念としての遺伝子
 
@@ -182,19 +182,19 @@ Wikibook「分子生物学」
 ## 有性生殖と遺伝子
 ### 無性生殖と有性生殖
 
-![有性生殖・無性生殖](pics/seisho4.gif)
+![有性生殖・無性生殖](pics/seisho4.gif){width=250px}
 
 http://www.max.hi-ho.ne.jp/lylle/seishoku1.html
 
 #### ハプロイドとディプロイドと生活環
 
-![ハプロイド・ディプロイド](pics/haploidDiploid.jpg)
+![ハプロイド・ディプロイド](pics/haploidDiploid.jpg){width=250px}
 
 
 http://www.seibutsushi.net/blog/2007/07/241.html 
 
 * Diploid部分が肥大した多細胞生物
-![受精卵から死まで](pics/multicellular.png)
+![受精卵から死まで](pics/multicellular.png){width=250px}
 
 
 
@@ -204,7 +204,7 @@ http://www.seibutsushi.net/blog/2007/07/241.html
 
 ### ハプロイド・ディプロイド　１倍体・２倍体
 
-![ハプロイド・ディプロイド](pics/diploidHaploid.png)
+![ハプロイド・ディプロイド](pics/diploidHaploid.png){width=250px}
 
 ### ジェノタイプ　遺伝子型
 
@@ -212,7 +212,7 @@ http://www.seibutsushi.net/blog/2007/07/241.html
 * $\{AA,AG,GG\}$(female), $\{A,G\}$(male) というX染色体のジェノタイプ。Femaleは３ジェノタイプ、maleは２ジェノタイプ。
 
 #### ホモ接合体・ヘテロ接合体
-![ホモとヘテロ](pics/homohetero.jpg)
+![ホモとヘテロ](pics/homohetero.jpg){width=250px}
 
 
 ### フェノタイプ　表現型
@@ -230,7 +230,7 @@ http://www.seibutsushi.net/blog/2007/07/241.html
 * 染色体が持つ「タイプ」なので、「ハプロタイプ」でもある
 * 染色体上に乗っている複数のバリアント座位を合わせてもハプロタイプ
 
-![アリル・ハプロタイプ](pics/allele.jpg)
+![アリル・ハプロタイプ](pics/allele.jpg){width=250px}
 
 
 ## メンデルの法則・メンデル型遺伝
@@ -238,7 +238,7 @@ http://www.seibutsushi.net/blog/2007/07/241.html
 
 ### 耳垢遺伝子
 
-![耳垢遺伝子](pics/mimiaka.png)
+![耳垢遺伝子](pics/mimiaka.png){width=250px}
 
 * https://ja.wikipedia.org/wiki/メンデルの法則 
 
@@ -257,9 +257,9 @@ http://www.seibutsushi.net/blog/2007/07/241.html
 
 
 ### 遺伝形式
-![常染色体性](pics/autosomal.png)
+![常染色体性](pics/autosomal.png){width=250px}
 
-![X染色体性](pics/Xlinked.png)
+![X染色体性](pics/Xlinked.png){width=250px}
 
 * 優性
 * 劣性
@@ -335,7 +335,7 @@ $Y \in \{0,1\}$の値は表現型であると考えた。
 
 その場合、ジェノタイプが0,1,2の場合に、フェノタイプ1を発現する確率が、0,1,1である場合が優性遺伝形式、0,0,1の場合が劣性遺伝形式であることになる。
 
-![写像としての遺伝形式](pics/geneticModelMap.png)
+![写像としての遺伝形式](pics/geneticModelMap.png){width=250px}
 
 一般化して、ジェノタイプごとの発現確率を$P(X=0),P(X=1),P(X=2)$とすれば(下図ではr,q,p)、
 
@@ -348,9 +348,9 @@ $Y \in \{0,1\}$の値は表現型であると考えた。
 * ジェノタイプからはフェノタイプが0となると予想されるが、その通りにならない確率。このような現象をフェノコピー。このような確率をフェノコピーが出現する)(確)率と言う。
 
 
-![写像としての遺伝形式2](pics/geneticModelMap2.png)
+![写像としての遺伝形式2](pics/geneticModelMap2.png){width=250px}
 ### 家系図
-![家系図](pics/pedigree.png)
+![家系図](pics/pedigree.png){width=250px}
 
 
 ## 確率分布関数と尤度関数
@@ -408,7 +408,7 @@ $$
 
 
 
-## 練習問題(試験にそのまま出る可能性があります)
+## 練習問題
 * HereditaryとGeneticの異同について説明しなさい
 * 遺伝子とは何か、その物質的側面と情報的側面との両方に言及して説明しなさい
 * 常染色体性優性遺伝形式の遺伝的形質について、責任アリルのホモ接合体の浸透率をu2、ヘテロ接合体の浸透率をu1とし、フェノコピー率をvとしたときの、３つのジェノタイプのそれぞれの表現系の発現確率を式で示しなさい
@@ -446,7 +446,7 @@ points(x,y,type="l")
     + mRNAを経てタンパク質として読みだされる
     + 機能性RNA分子として読みだされる
 
-![遺伝子座位](pics/idensi.png)
+![遺伝子座位](pics/idensi.png){width=250px}
 
 ### DNA、RNA、たんぱく質
 #### 転写と翻訳、生成と分解
@@ -457,21 +457,21 @@ points(x,y,type="l")
 * コドン
 * 翻訳後修飾
 
-![遺伝子発現](pics/transcriptionTranslation.png)
+![遺伝子発現](pics/transcriptionTranslation.png){width=250px}
 
 
 
-![転写と翻訳](pics/tenshahonnyaku.jpg)
+![転写と翻訳](pics/tenshahonnyaku.jpg){width=250px}
 
 
 
-![スプライシング](pics/splicing.gif)
+![スプライシング](pics/splicing.gif){width=250px}
 
 
-![コドン表](pics/codontable.gif)
+![コドン表](pics/codontable.gif){width=250px}
 
 
-![翻訳後修飾](pics/postTranslationalModification.png)
+![翻訳後修飾](pics/postTranslationalModification.png){width=250px}
 
 
 
@@ -495,7 +495,7 @@ $$
     + 組み合わせ $2^n = \sum_i \begin{pmatrix}n\\i\end{pmatrix} = 1 + n + \frac{n(n-1)}{2} + ... + n + 1$
 * 遠位座位の近接関係
 
-![染色体テリトリーとトポロジカルドメイン](pics/topologicalDomain.png)
+![染色体テリトリーとトポロジカルドメイン](pics/topologicalDomain.png){width=250px}
 
 http://leading.lifesciencedb.jp/4-e002/
 
@@ -508,12 +508,12 @@ http://leading.lifesciencedb.jp/4-e002/
 * メタボローム
 * フェノーム
 
-![オミクス層構造](pics/Omics.png)
+![オミクス層構造](pics/Omics.png){width=250px}
 
 ### エピゲノム
 * DNA、ヒストン、クロマチン、染色体
 
-![クロマチン](pics/chromatin.gif)
+![クロマチン](pics/chromatin.gif){width=250px}
 
 
 
@@ -524,15 +524,15 @@ http://leading.lifesciencedb.jp/4-e002/
     + DNAの不活化
     + ヘテロクロマチン、ユークロマチン
 
-![ヘテロクロマチン・ユークロマチン](pics/heteroEuChromatin.jpg)
+![ヘテロクロマチン・ユークロマチン](pics/heteroEuChromatin.jpg){width=250px}
 
-![RNApolymeraseのアクセス](pics/EuchromatinRNApoly.jpg)
+![RNApolymeraseのアクセス](pics/EuchromatinRNApoly.jpg){width=250px}
 
 
  
-![エピゲノム](pics/epigenetics.png)
+![エピゲノム](pics/epigenetics.png){width=250px}
 
-![ヒストン修飾](pics/histone.png)
+![ヒストン修飾](pics/histone.png){width=250px}
 
 * 「エピゲノム」は、「各所」の「エピジェネティクス」を単なる和ではなく、「全体」で考えあること
 
@@ -541,10 +541,10 @@ http://leading.lifesciencedb.jp/4-e002/
     + Barr小体
     + iPS細胞
     
-![Xモザイク](pics/Xmosaic.jpg)
-![Lyonizationと病気](pics/LyonizationDisease.png)
+![Xモザイク](pics/Xmosaic.jpg){width=250px}
+![Lyonizationと病気](pics/LyonizationDisease.png){width=250px}
 
-![iPSリプログラミング](pics/iPSreprogramming.jpg)
+![iPSリプログラミング](pics/iPSreprogramming.jpg){width=250px}
 
  DNA methylation pattern of the paternal H19/IGF2 DMR in hybrid fibroblasts (somatic cell) and induced pluripotent stem (iPS) cells. Front. Genet., 25 February 2015 | https://doi.org/10.3389/fgene.2015.00058
  
@@ -556,16 +556,16 @@ http://leading.lifesciencedb.jp/4-e002/
 
 * 大部分の遺伝子で認められる
 
-![スプライシングバリアント](pics/SpliceVariant.jpg)
+![スプライシングバリアント](pics/SpliceVariant.jpg){width=250px}
 
-![スプライシングバリアント2](pics/SpliceVariant2.gif)
+![スプライシングバリアント2](pics/SpliceVariant2.gif){width=250px}
 
 
 #### 発現比較解析
 * > 20000遺伝子の発現量を同時測定
 * 発現パターンで分類
 
-![ヒートマップ](pics/heatmap.jpg)
+![ヒートマップ](pics/heatmap.jpg){width=250px}
 
 ### 機能性RNA遺伝子、ノンコーディング遺伝子
 
@@ -578,7 +578,7 @@ http://leading.lifesciencedb.jp/4-e002/
 * microRNA
 * その他
 
-![ノンコーディングRNA](pics/nonCodingRNA.png)
+![ノンコーディングRNA](pics/nonCodingRNA.png){width=250px}
 
 
 ## 分子遺伝学における数
@@ -593,7 +593,7 @@ http://leading.lifesciencedb.jp/4-e002/
 
 * https://publications.nigms.nih.gov/insidelifescience/genetics-numbers.html 
 
-![細胞の内訳](pics/CellFraction.png)
+![細胞の内訳](pics/CellFraction.png){width=250px}
 
 https://doi.org/10.1371/journal.pbio.1002533
 
@@ -605,12 +605,12 @@ https://doi.org/10.1371/journal.pbio.1002533
 * 遺伝子をサブセットにする
     + 機能によるサブセット化
     
-![メタボロームパスウェイ](pics/MetabolomePathway.png)
+![メタボロームパスウェイ](pics/MetabolomePathway.png){width=250px}
 
 
 
 
-![遺伝子セット](pics/GeneSet.png)
+![遺伝子セット](pics/GeneSet.png){width=250px}
 
 
 
@@ -625,10 +625,10 @@ https://doi.org/10.1371/journal.pbio.1002533
     + たくさんの時刻、たくさんの場所で測ることで、はじめて全容がわかる
     + たくさんの細胞をまとめて測ることもできるし、個々の細胞を調べることもできる
     
-![ショウジョウバエ幼生](pics/Drosophilla.jpeg)
+![ショウジョウバエ幼生](pics/Drosophilla.jpeg){width=250px}
 
 
-![発現空間分解](pics/spatialExpression.jpeg)
+![発現空間分解](pics/spatialExpression.jpeg){width=250px}
 
 
 
@@ -652,7 +652,7 @@ $$
 S = - k\sum_w p(w)\log{p(w)}
 $$
 
-![熱力学の第二法則](pics/netsuriki.png)
+![熱力学の第二法則](pics/netsuriki.png){width=250px}
 
 ####　情報とエントロピー
 
@@ -722,11 +722,11 @@ matplot(p,cbind(-F1*log(F1),-F2*log(F2)),type="l",xlab="p",ylab="-f(p)log(f(p))"
 
 
 
-![ライフ](pics/lifeCore.png)
+![ライフ](pics/lifeCore.png){width=250px}
 
 ## 生命の起源
 
-![生命の起源](pics/originLife.png)
+![生命の起源](pics/originLife.png){width=250px}
 
 ### RNAワールド仮説
 
@@ -737,8 +737,8 @@ matplot(p,cbind(-F1*log(F1),-F2*log(F2)),type="l",xlab="p",ylab="-f(p)log(f(p))"
 * 現在のDNA、RNA、タンパク質は、分業体制とみなせる
 
 
-![RNAワールド](pics/RNAWorld.png)
-![DNA,RNA,Protein](pics/DNARNAProtein.png)
+![RNAワールド](pics/RNAWorld.png){width=250px}
+![DNA,RNA,Protein](pics/DNARNAProtein.png){width=250px}
 
 
 ## 進化
@@ -748,14 +748,14 @@ matplot(p,cbind(-F1*log(F1),-F2*log(F2)),type="l",xlab="p",ylab="-f(p)log(f(p))"
 
 
 ### 系統樹
-![系統樹](pics/keitoujyu.png)
+![系統樹](pics/keitoujyu.png){width=250px}
 
 
 ### 種分化
-![生殖可能性](pics/seisyokuKanousei.png)
+![生殖可能性](pics/seisyokuKanousei.png){width=250px}
 
 
-![生殖可能性](pics/kouzatsusyu.png)
+![生殖可能性](pics/kouzatsusyu.png){width=250px}
 
 
 ### 自然選択説
@@ -780,11 +780,11 @@ matplot(p,cbind(-F1*log(F1),-F2*log(F2)),type="l",xlab="p",ylab="-f(p)log(f(p))"
 * "分子時計は、言い方を変えれば、分子進化速度の一定性である。この結果は中立説で容易に理解できる。中立説によると、分子進化速度ｋは総突然変異率μに対する中立な突然変異の割合ｆに比例する。"
 https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 
-![分子時計](pics/MolecularClock.gif)
+![分子時計](pics/MolecularClock.gif){width=250px}
 
 ### ほぼ中立進化説
 
-![ほぼ中立説](pics/hoboChu.jpg)
+![ほぼ中立説](pics/hoboChu.jpg){width=250px}
 
 * "中立説では自然淘汰の影響を受けない完全な中立突然変異に主題を置き、進化速度は集団サイズとは相関がなく、中立突然変異率に等しくなると論じた。 一方、ほぼ中立説では集団サイズと分子進化速度の相関を予想している。簡単に説明すれば、遺伝的浮動は弱有害突然変異を集団中に固定する力であるが、大きい集団では遺伝的浮動の効果は弱い。ゆえに、大きい集団では小さい集団よりもゆっくり進化が進むということである。"Wikipedia「分子進化のほぼ中立説」
 
@@ -796,16 +796,16 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 固定するアリルは必ずしも『有利』なそれとは限らない
 * 進化は小集団の方が速い
 
-![遺伝的浮動](pics/drift.png)
+![遺伝的浮動](pics/drift.png){width=250px}
 
 * 有限個体数集団なら浮動
 
 * 無限近似は拡散方程式
     + 無限近似の下では、頻度fのアリルがある時間tの後に、頻度f'になる確率は、拡散方程式で表される
 
-![アリルの拡散・アリル頻度の拡散的変化](pics/diffusion.gif)
+![アリルの拡散・アリル頻度の拡散的変化](pics/diffusion.gif){width=250px}
 
-![拡散方程式](pics/diffusionEq.png)
+![拡散方程式](pics/diffusionEq.png){width=250px}
 
 #### 雑談：量子力学の必要性
 
@@ -831,7 +831,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 ### 遺伝的距離
 
 
-![マンハッタン距離](pics/manhattan.png)
+![マンハッタン距離](pics/manhattan.png){width=250px}
 
 * １点変異の距離を１とする
 * マンハッタン距離は、点変異の個数
@@ -844,32 +844,32 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * ユークリッド距離はその１つ
 * マンハッタン距離もその１つ
 
-![距離](pics/Kyori.png)
+![距離](pics/Kyori.png){width=250px}
 
 
 
 ### クラスタリング
-![近隣結合法](pics/NJ.png)
+![近隣結合法](pics/NJ.png){width=250px}
 
-![距離行列](pics/DistanceMatrix.png)
+![距離行列](pics/DistanceMatrix.png){width=250px}
 
-![近隣結合法アルゴリズム](pics/NJ2.png)
+![近隣結合法アルゴリズム](pics/NJ2.png){width=250px}
 
 #### クラスタリング～機械学習
 
-![機械学習の中のクラスタリング](pics/machineLearning.png)
+![機械学習の中のクラスタリング](pics/machineLearning.png){width=250px}
 
 ### アラインメント
 
 * 配列合わせ(アラインメント)は難しい計算機課題
 
-![ハミング距離](pics/hamming.png)
+![ハミング距離](pics/hamming.png){width=250px}
 
-![AlingProblem](pics/alignHow.png)
+![AlingProblem](pics/alignHow.png){width=250px}
 
 
 ### 種間配列比較
-![アラインメント](pics/alignment.png)
+![アラインメント](pics/alignment.png){width=250px}
 
 * アミノ酸配列とDNA配列
 
@@ -879,9 +879,9 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 
 * 生命自体が、巨大な最適化系
 
-![遺伝的アルゴリズム](pics/identekialgo.jpg)
+![遺伝的アルゴリズム](pics/identekialgo.jpg){width=250px}
 
-![ゲーマーによる問題解決](pics/phylo.png)
+![ゲーマーによる問題解決](pics/phylo.png){width=250px}
 
 * https://www.youtube.com/watch?v=oKcvsgIQOt0 
 
@@ -891,7 +891,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 進化→オーソログ
 
 
-![相同遺伝子](pics/orthologParalog.jpg)
+![相同遺伝子](pics/orthologParalog.jpg){width=250px}
 
 * http://schaechter.asmblog.org/schaechter/2009/03/of-terms-in-biology-ortholog.html　
 
@@ -899,7 +899,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 
 * 染色体単位で種間の対応がある
 
-![シンテニー](pics/synteny.jpg)
+![シンテニー](pics/synteny.jpg){width=250px}
 
 * BMC Bioinformatics20078:82 DOI: 10.1186/1471-2105-8-82
 
@@ -912,25 +912,25 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
     + コピーがあれば、試しに変えてみて失敗しても大丈夫
     + 偽遺伝子(psuedogenes)
     
-![遺伝子重複](pics/geneDup.png)
+![遺伝子重複](pics/geneDup.png){width=250px}
 
 * 全ゲノム重複
 
 * 二倍になる、三倍になる
 
-![全ゲノム重複](pics/wholeGenomeDup.png)
+![全ゲノム重複](pics/wholeGenomeDup.png){width=250px}
 
 * トランスポゾン
     + ウイルスは自身の核酸配列をホストの配列に挿入する
     + それがあちこち移動する
     + 移動するためのカット・アンド・ペースト機能付き
-![トランスポゾン](pics/transpozon.png)
+![トランスポゾン](pics/transpozon.png){width=250px}
 
 * エクソン・シャッフリング
     + 使える遺伝子を使いまわすのもよいが
     + 使えるエクソンを使いまわすのもあり
     
-![エクソンシャッフリング](pics/exonShuffle.png)
+![エクソンシャッフリング](pics/exonShuffle.png){width=250px}
 
 ### 粗大な変化・微小な変化
 * 大きな変化
@@ -950,7 +950,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 種間
 * 種内
 * 個体内
-![親子いろいろ](pics/oyako.png)
+![親子いろいろ](pics/oyako.png){width=250px}
 
 ### 種内遺伝的多様性の由来
 
@@ -966,9 +966,9 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 
 ### DNA 二重鎖　二倍体
 
-![DNA染色体](pics/DNAChromosome2.png)
+![DNA染色体](pics/DNAChromosome2.png){width=250px}
 
-![一塩基多型SNP](pics/SNP.png)
+![一塩基多型SNP](pics/SNP.png){width=250px}
 
 ### バリアントの分類
 * 置換
@@ -977,7 +977,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 逆位
 * 転座
 
-![バリアントの構造分類](pics/VariantStructures.png)
+![バリアントの構造分類](pics/VariantStructures.png){width=250px}
 
 * 大小さまざま
     + １塩基対単位：一塩基多型(一塩基バリアント、SNP,SNV)、一塩基挿入・欠失など
@@ -985,7 +985,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
     + 1000塩基対単位：普通の配列実験とアラインメントでは見つけにくい。構造バリアント.、コピーナンバーバリアント
     + 巨大なバリアント：HLA領域(100万塩基対)
     + 超巨大バリアント：染色体単位(X染色体２つ vs. X染色体とY染色体。21番トリソミー)
-![バリアントのサイズ](pics/VariantClassification.png)
+![バリアントのサイズ](pics/VariantClassification.png){width=250px}
 
 * 呼び方
     + 多型・ポリモルフィズム(集団中に『ふつうに』存在するバリアント。『ふつうに』の基準として、1%を採用することもある)
@@ -1003,7 +1003,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 遺伝的浮動
 * 交叉・組換え
 
-![交叉](pics/CrossOver.jpg)
+![交叉](pics/CrossOver.jpg){width=250px}
 
 ## 種内遺伝的多様性の評価
 ### ハーディ・ワインバーグ平衡と不平衡
@@ -1028,7 +1028,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
     + 拘束されている、とは、第１座位のアリル(A,a)と第２座位のアリル(B,b)があったときに、A-Bというハプロタイプを持つ染色体と、a-bというハプロタイプを持つ染色体とを持つ親からは、A-Bというハプロタイプか、a-bというハプロタイプしか、子には伝わらないことを言う
 * 実際には交叉・組み換えがあるので、同一染色体上の２座位は、近ければ近いほど、相互拘束関係が強く、遠ければ拘束関係が弱い
 
-![連鎖と組み換え](pics/rensa.gif)
+![連鎖と組み換え](pics/rensa.gif){width=250px}
 
 ### 連鎖不平衡
 
@@ -1041,23 +1041,23 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 * 平衡とは、独立(拘束がない)状態を指し、A-B,a-b,A-b,a-Bの割合が、$(pA + pa) \times (pB+ pb) = pA\times pB + pA \times pb + pa \times pB + pa \times pb$ に従っている状態に相当する
 
 
-![新規アリルと連鎖不平衡](pics/mutationLD.jpg)
+![新規アリルと連鎖不平衡](pics/mutationLD.jpg){width=250px}
 
-![連鎖不平衡の減衰](pics/LDdegradation.jpg)
+![連鎖不平衡の減衰](pics/LDdegradation.jpg){width=250px}
 
-![連鎖不平衡](pics/LD.jpg)
+![連鎖不平衡](pics/LD.jpg){width=250px}
 
 
 ## 人類の歴史
 
-![アフリカから始まった](pics/outOfAfrica2.png)
+![アフリカから始まった](pics/outOfAfrica2.png){width=250px}
 
-![アフリカから始まった２](pics/outOfAfrica2.gif)
+![アフリカから始まった２](pics/outOfAfrica2.gif){width=250px}
 
-![ユーラシア大陸民族の遺伝的遠近](pics/eurasian-pca.jpg)
+![ユーラシア大陸民族の遺伝的遠近](pics/eurasian-pca.jpg){width=250px}
 
 * 機能性遺伝子バリアント
-![乳糖分解酵素バリアントとヨーロッパ地図](pics/lactaseEurope.jpg)
+![乳糖分解酵素バリアントとヨーロッパ地図](pics/lactaseEurope.jpg){width=250px}
 
 
 # 疾患の分子遺伝学
@@ -1116,14 +1116,14 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
 
 因果はそもそも難しい哲学的課題
 
-![因果](pics/inga.png)
+![因果](pics/inga.png){width=250px}
 
 分野によって異なる捉え方をする(Wikipedia En)
 
-![分野による因果の違い](pics/inga2.png)
+![分野による因果の違い](pics/inga2.png){width=250px}
 
     
-![死亡診断書](pics/sibousindansyo.jpg)
+![死亡診断書](pics/sibousindansyo.jpg){width=250px}
 
 ## 遺伝因子と環境因子
 
@@ -1134,7 +1134,7 @@ https://www.brh.co.jp/research/formerlab/miyata/2005/post_000003.html#04
     
 ## 疾患の遺伝性
 
-![疾患の遺伝性](pics/idenKankyo.png)
+![疾患の遺伝性](pics/idenKankyo.png){width=250px}
 
 ### 単一遺伝性疾患と複合遺伝性疾患
 
@@ -1322,7 +1322,7 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 * 2本で仕事をすればよいが、似た仕事のできる別の誰かが助けてくれるかもしれない
 * 2本の事情は普通は受精卵から変わらないが、変わることもある。1本に体細胞変異が入って、2人の関係はがらりと変わるかもしれない
 
-![遺伝的バリアントの機能影響](pics/geneticExplanation.png)
+![遺伝的バリアントの機能影響](pics/geneticExplanation.png){width=250px}
 
 ### 機能影響
 
@@ -1339,28 +1339,28 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 * 翻訳後修飾
 * 分解
 
-![DNA、転写、翻訳](pics/transcriptionTranslation.png)
+![DNA、転写、翻訳](pics/transcriptionTranslation.png){width=250px}
 
 * エクソンとイントロン
 * スプライシング
 * UTR
 * 転写調節領域　プロモータ
 
-![コーディング遺伝子の構造](pics/genestructure.jpg)
+![コーディング遺伝子の構造](pics/genestructure.jpg){width=250px}
 
 
-![コーディング遺伝子への機能影響](pics/codinggene.png)
+![コーディング遺伝子への機能影響](pics/codinggene.png){width=250px}
 
 #### エクソンのバリアント
 * SNP(点変異)はコドンを変える
     + コドンが変わると、アミノ酸が変わるかもしれない
     + Non-synonymous (アミノ酸置換あり) vs. Synonymous (アミノ酸置換なし)
 
-![コドン](pics/RNA-codon.png)
+![コドン](pics/RNA-codon.png){width=250px}
 
-![アミノ酸置換の有り無し１](pics/pointMutation.png)
+![アミノ酸置換の有り無し１](pics/pointMutation.png){width=250px}
 
-![アミノ酸置換の有り無し２](pics/synomNonsynom.jpg)
+![アミノ酸置換の有り無し２](pics/synomNonsynom.jpg){width=250px}
 
 
 * アミノ酸置換
@@ -1370,9 +1370,9 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 
 
 
-![アミノ酸の特性分類](pics/aminoacidGroup.gif)
+![アミノ酸の特性分類](pics/aminoacidGroup.gif){width=250px}
 
-![コドン表とアミノ酸の性質](pics/codonAApng.png)
+![コドン表とアミノ酸の性質](pics/codonAApng.png){width=250px}
 
 
 
@@ -1380,14 +1380,14 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 
 フレームシフトが起きると、バリアント箇所とそれより下流に多くのアミノ酸置換が起きる。終止コドンの移動も起きる
 
-![フレームシフト](pics/frameshift.jpg)
+![フレームシフト](pics/frameshift.jpg){width=250px}
 
 #### 転写調節
     + 転写効率は転写調節領域への転写関連分子の結合によって変化する
     + 転写調節領域への分子の結合は調節領域配列依存的
     + 転写調節領域のバリアントは、転写活性に影響し、発現機能に量的に影響する
     
-![プロモータ領域](pics/promoter.jpg)
+![プロモータ領域](pics/promoter.jpg){width=250px}
 
 
 * 転写調節配列には分子結合にとって重要な塩基とそうでない塩基がある
@@ -1395,7 +1395,7 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
     + 保存性の強さによって、重要塩基を測る
     + 変異アリルの機能的重要性の予測に活用することもできる
     
-![プロモータ変異の重要度予測](pics/promoter.png)
+![プロモータ変異の重要度予測](pics/promoter.png){width=250px}
 
 #### イントロンのバリアント
     + スプライシング調節配列がある
@@ -1403,7 +1403,7 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
     + スプライシングに影響すると、スプライシングバリアントの発現パターンに影響する
     + スプライシング以外にも転写調節に影響することもある
 
-![イントロン変異](pics/intron.png)
+![イントロン変異](pics/intron.png){width=250px}
 
 ### ノンコーディング遺伝子
 
@@ -1411,7 +1411,7 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
     + RNA高次構造が機能を持つ
     + RNA塩基配列が、配列特異的機能を持つ
     
-![RNA遺伝子への機能影響](pics/RNA2D.png)
+![RNA遺伝子への機能影響](pics/RNA2D.png){width=250px}
 
 
 
@@ -1420,14 +1420,14 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 * 次世代への情報伝達のための生殖細胞系列
 * 自世代内で完結する体細胞系列
 
-![個体と生殖細胞系列・体細胞系列](pics/multicellular.png)
+![個体と生殖細胞系列・体細胞系列](pics/multicellular.png){width=250px}
 
 ### 生殖細胞系列の変異
 
 * do novo変異アリルは、親から子、子から孫へ伝わる変異アリルではなく、親世代にはなく、子の生殖細胞系列で新規に(de novo)おきた変異イベントによって誕生した新規アリルが、孫に伝わり、孫の全細胞(生殖細胞系列を含む)が有することになるアリル
 * その孫からひ孫世代に伝わるかどうかは、そのアリルを持った配偶子が受精卵となるかどうかで決まり、確率的
 
-![de Novo変異](pics/denovo.png)
+![de Novo変異](pics/denovo.png){width=250px}
 
 
 
@@ -1439,11 +1439,11 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 * 体細胞変異がおきて、その仕組みに異常が発生しても変異を修復する機構もある
 * それらの多重の防止機構を突破した結果、癌細胞となり、癌という病気をもたらす
 
-![癌の発生](pics/cancer.png)
+![癌の発生](pics/cancer.png){width=250px}
 
 
 
-![マルチヒット](pics/multihit.png)
+![マルチヒット](pics/multihit.png){width=250px}
 
 * 癌細胞以外にも、多くの細胞で体細胞系列変異は起きている。癌が目立つのは、癌細胞が「増殖」するから
 
@@ -1456,7 +1456,7 @@ plot(1:age.max,aff/N,type="l",xlab="年齢",ylab="死亡者割合",main="死亡者の増加")
 * 特に、受精卵から卵割して行く途中であって、器官発生より前の段階に起きる体細胞変異は、身体のある割合の細胞に変異を入れることから、「体細胞変異のモザイク」を作る
 * メンデル型遺伝病の原因変異の場合には、「全部の細胞ではなく、ある割合の細胞」が病的であるため、軽症の疾患・様子の異なる疾患として現れることがある
 
-![体細胞モザイク](pics/mosaic.png)
+![体細胞モザイク](pics/mosaic.png){width=250px}
 
 
 ## まとめ
